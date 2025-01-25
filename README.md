@@ -1,5 +1,7 @@
 # ShowTime - Movie Ticket Booking Website
 
+👉 **[Visit the Website](https://prateekbisht23.github.io/ShowTime/)** 👈
+
 ShowTime is a modern, responsive movie ticket booking website built with HTML, CSS, and JavaScript. It provides users with a seamless interface to browse movies, view details, and (conceptually) book tickets.
 
 ## 🎬 Features
