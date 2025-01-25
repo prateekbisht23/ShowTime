@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - ShowTime</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container header-content">
+        <a href="index.html" class="logo">ShowTime</a>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+            </li>
+            <li>
+              <a
+                href="register.html"
+                style="background: rgba(255, 255, 255, 0.1)"
+                ><i class="fas fa-user-plus"></i> Register</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="auth-container">
+        <div class="auth-header">
+          <h2>Create Account</h2>
+          <p>Join ShowTime for the ultimate movie experience</p>
+        </div>
+        <form>
+          <div class="form-group">
+            <label for="name"><i class="fas fa-user"></i> Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email"
+              ><i class="fas fa-envelope"></i> Email Address</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password"><i class="fas fa-lock"></i> Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Create a password"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="confirm-password"
+              ><i class="fas fa-check-circle"></i> Confirm Password</label
+            >
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              placeholder="Confirm your password"
+              required
+            />
+          </div>
+          <button type="submit" class="auth-btn">
+            <i class="fas fa-user-plus"></i> Create Account
+          </button>
+          <div class="auth-links">
+            <p>
+              Already have an account?
+              <a href="login.html"
+                ><i class="fas fa-sign-in-alt"></i> Sign In</a
+              >
+            </p>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-bottom">
+          <p>&copy; 2023 ShowTime. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
