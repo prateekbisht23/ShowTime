@@ -87,7 +87,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 👥 Authors
 
-- Your Name - Initial work
+- Prateek Bisht - Initial work
 
 ## 🙏 Acknowledgments
 
