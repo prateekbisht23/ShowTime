@@ -65,6 +65,21 @@ ShowTime is a modern, responsive movie ticket booking website built with HTML, C
 3. Open `index.html` in your browser
 
 
+## Screenshots
+
+### Home Page
+<img src="assets/img1.png" alt="Home Page" width="700">
+
+### Upcoming Movies Section
+<img src="assets/img2.png" alt="Upcoming Movies" width="700">
+
+### Now Showing Movies Section
+<img src="assets/img3.png" alt="Now Showing Movies" width="700">
+
+### Login Page
+<img src="assets/img4.png" alt="Login Page" width="700">
+
+
 ## 🚀 Future Enhancements
 
 - Backend integration for:
