@@ -26,7 +26,7 @@ body {
     padding: 0 20px;
 }
 
-/* Header Styles */
+/* Header */
 header {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     padding: 1rem 0;
@@ -796,3 +796,54 @@ footer::before {
     color: var(--primary-color);
     transform: translateY(-1px);
 }
+
+/* about.css - Custom styles for About page */
+
+/* About section layout */
+.about-section {
+    max-width: 960px; /* equivalent to max-w-4xl in Tailwind */
+    margin: 0 auto; /* centers the section */
+    padding: 32px 16px; /* padding top/bottom of 8rem (for py-8), left/right of 4rem (for px-4) */
+  }
+  
+  /* Heading styles */
+  .about-section h2 {
+    font-size: 2rem; /* equivalent to text-3xl */
+    font-weight: bold;
+    margin-bottom: 1rem; /* equivalent to mb-4 */
+  }
+  
+  .about-section h3 {
+    font-size: 1.5rem; /* equivalent to text-2xl */
+    font-weight: 600; /* equivalent to font-semibold */
+    margin-top: 1.5rem; /* equivalent to mt-6 */
+    margin-bottom: 0.5rem; /* equivalent to mb-2 */
+  }
+  
+  /* Paragraph styles */
+  .about-section p {
+    font-size: 1.125rem; /* equivalent to text-lg */
+    margin-bottom: 1rem; /* equivalent to mb-4 */
+  }
+  
+  /* Unordered list styles */
+  .about-section ul {
+    list-style-type: disc;
+    padding-left: 20px; /* equivalent to list-inside */
+    margin-bottom: 1rem; /* equivalent to space-y-2 */
+  }
+  
+  .about-section ul li {
+    font-size: 1.125rem; /* equivalent to text-lg */
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Link styles */
+  .about-section a {
+    color: #4da6ff; /* equivalent to text-blue-400 */
+    text-decoration: underline;
+  }
+  
+  .about-section a:hover {
+    color: #82cfff; /* lighter blue for hover effect */
+  }  

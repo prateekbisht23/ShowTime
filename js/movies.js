@@ -135,6 +135,5 @@ async function openIMDB(tmdbId) {
         console.error('Error fetching IMDB ID:', error);
     }
 }
-
 // Load movies when the page loads
 document.addEventListener('DOMContentLoaded', fetchMovies); 
